@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.header {
+    width: 1920px;
+    height: 100px;
+}
+
+.menu-block {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    position: absolute;
+    top: 22px;
+    left: 405px;
+    width: 1116px;
+    height: 57px;
+}
+
+.logo p {
+    position: relative;
+    top: -5px;
+    display: inline;
+    font-family: Merriweather;
+    font-size: 36px;
+    line-height: 49.78px;
+    text-align: left;
+    color: #005FA3;
+}
+
+.menu {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.contacts li {
+    width: 145px;
+    height: 18px;
+    top: 22px;
+    left: 1022px;
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 17.16px;
+    text-align: left;
+    
+}
+
+.contacts li p {
+    display: inline;
+    position: relative;
+    top: -3px;
+    margin-left: 5px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+#phone {
+    width: 10px;
+    height: 17.21px;
+}
+
+#clock {
+    width: 17px;
+    height: 17px;
+}
+
+#letter {
+    width: 23.34px;
+    height: 17px;
+}
+
+#place {
+    width: 17px;
+    height: 17px;
+}
